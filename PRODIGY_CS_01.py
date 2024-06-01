@@ -42,7 +42,7 @@ def main():
         
         while True:
             try:
-                shift = int(input("Enter the shift value (a number): ").strip())
+                shift = int(input("Enter the number (a number): ").strip())
                 break
             except ValueError:
                 print("Invalid number! Please enter a valid number.")
